@@ -3,18 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="index.css">
     <title>PROJECT</title>
 </head>
 <body>
     <div class="container">
         <div class="left">
-            <form >
-                <Label>Username</Label>
-                <input type="text">
+            <h1>Sign Up</h1>
+            <form>
+                <div class="username">
+                    <input type="text" placeholder="Username">
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="password">
+                    <input type="text" placeholder="password">
+                    <i class='bx bxs-lock-alt'></i> 
+                </div>
+                <div class="bottom">
+                    <a href="" > Already have an account?</a>
+                </div>
+                <div class="singup">
+                    <button>Sign Up</button>
+                </div>
             </form>
         </div>
-        <div class="right"></div>
+        <div class="right">
+            <h1>Login</h1>
+            <form>
+                <div class="username">
+                    <input type="text" placeholder="Username">
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="password">
+                    <input type="text" placeholder="password">
+                    <i class='bx bxs-lock-alt'></i> 
+                </div>
+                <div class="bottom">
+                    <div class="remember">
+
+                        <input type="checkbox"> <label for="">Remember me</label>
+                    </div>
+                    <a href=""> Don't have an account?</a>
+                </div>
+            </form>
+        </div>
     </div>
 </body>
 </html>
