@@ -4,7 +4,7 @@ const login = document.getElementById("loginAcc");
 const left = document.getElementById("left");
 const right = document.getElementById("right");
 
-right.classList.toggle('change');
+left.classList.toggle('change');
 
 create.onclick =()=> {
     right.classList.toggle('change');

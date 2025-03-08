@@ -12,17 +12,17 @@
     <div class="container">
         <div class="left" id="left">
             <h1>Sign Up</h1>
-            <form action="signup.php" method="post">
+            <form action="signup.php" method="POST">
                 <div class="username">
-                    <input type="text" placeholder="Username">
+                    <input type="text" placeholder="Username" name ="username">
                     <i class='bx bxs-user'></i>
                 </div>
                 <div class="email">
-                    <input type="email" placeholder="Email">
+                    <input type="email" placeholder="Email" name ="email">
                     <i class='bx bxs-envelope'></i>
                 </div>
                 <div class="password">
-                    <input type="password" placeholder="Password">
+                    <input type="password" placeholder="Password" name ="password">
                     <i class='bx bxs-lock-alt'></i> 
                 </div>
                 <div class="bottom">
@@ -35,13 +35,13 @@
         </div>
         <div class="right" id="right">
             <h1>Login</h1>
-            <form>
+            <form action="login.php" method="POST">
                 <div class="username">
-                    <input type="text" placeholder="Username">
+                    <input type="text" placeholder="Username" name="username">
                     <i class='bx bxs-user'></i>
                 </div>
                 <div class="password">
-                    <input type="password" placeholder="Password">
+                    <input type="password" placeholder="Password" name="password">
                     <i class='bx bxs-lock-alt'></i> 
                 </div>
                 <div class="bottom">
